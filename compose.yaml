@@ -1,0 +1,6 @@
+﻿services:
+  duahati:
+    image: duahati
+    build:
+      context: .
+      dockerfile: DuaHati/Dockerfile
