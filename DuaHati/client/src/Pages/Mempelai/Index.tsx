@@ -14,11 +14,11 @@ export default function Index() {
         >
             <div className="py-12">
                 <div className="mx-auto max-w-7xl space-y-6 sm:px-6 lg:px-8">
-                    <Button variant="outline" size="icon" asChild>
-                        <Link to={""} >
-                            <ChevronLeft />
-                        </Link>
-                    </Button>
+                    <div className='flex justify-end px-4 md:px-0'>
+                        <Button asChild>
+                            <Link to={"/mempelai/create"}>Tambah Profil</Link>
+                        </Button>
+                    </div>
                     <div className="bg-white p-4 shadow sm:rounded-lg sm:p-8">
                         
                     </div>
